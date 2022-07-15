@@ -1,0 +1,228 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,600;1,500&family=Lato:wght@300;400&family=Montserrat:wght@200;400;700;900&family=Roboto+Slab:wght@300;400;500;700;900&family=Roboto:wght@300&display=swap');
+body{
+	font-family: 'Roboto Slab', serif;
+}
+#header{
+	background:rgba(57,57,57,0.61);
+	padding: 16px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+.logo a{
+	font-size: 36px;
+	text-decoration: none;
+	color: white;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 20px;
+}
+.nav li a{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+}
+.nav li a:hover{
+	border: 2px solid darkgrey;
+	padding: 4px 6px; 
+	color: darkgrey;
+}
+#main{
+	background:#1f1f1f;
+}
+.banner{
+	background: url("../img/pexels-miriam-fischer-2650468.jpg");
+	background-position: center;
+	padding: 700px 0 100px;
+	background-size: cover;
+}
+.banner h1{
+	color: white;
+	letter-spacing: 30px;
+	font-size: 85px;
+	margin-bottom: 20px
+}
+.banner a{
+	text-decoration: none;
+	color: white;
+}
+.banner a:hover{
+	background: white;
+	padding: 8px;
+	color: #1f1f1f;
+	font-size: 20px;
+	font-weight: 500;
+}
+.img{
+	height: 700px;
+	width: 100%;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+}
+.section-1{
+	padding: 50px;
+}
+.content{
+	padding: 20px;
+	color: white;
+}
+.content h1{
+	font-size: 72px;
+}
+.content p{
+	font-weight: 300;
+	line-height: 25px;
+	word-spacing: 3px;
+	margin-top: 20px;
+}
+.section-2{
+	padding: 70px 0;
+}
+.title h1{
+	color: white;
+	font-weight: 500;
+	letter-spacing: 10px;
+	word-spacing: 3px;
+	font-size: 50px;
+}
+.title h2{
+	font-size: 30px;
+	color: white;
+	line-height: 80px;
+	font-weight: 300;
+	letter-spacing: 5px;
+}
+.feature{
+	height: 200px;
+	background: url("../img/pexels-grace-russmann-4685182.jpg");
+	background-size: cover;
+}
+.feature-1{
+	height: 300px;
+	background: url("../img/pexels-georg-manfred-heinlein-9211528.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.feature-2{
+	height: 400px;
+	background: url("../img/pexels-pixabay-67826.jpg");
+	background-size: cover;
+}
+.feature-3{
+	height: 300px;
+	background:url("../img/pexels-blue-ox-studio-982230.jpg");
+	background-size: cover;
+}
+.feature-4{
+	height: 200px;
+	background: url("../img/pexels-antonio-friedemann-11633339.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.section-3{
+	background: url("../img/pexels-john-mauren-11492503.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+	color: white;
+	position: relative;
+	background-attachment: fixed;
+}
+.text{
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	bottom: 20px;
+	left: 200px;
+}
+.text h1{
+	font-size: 65px;
+	font-weight: 500;
+}
+.text p{
+	color: white;
+	font-weight: 300;
+	line-height: 24px;
+	word-spacing: 3px;
+}
+.section-4{
+	padding: 70px 0;
+
+}
+.text-1 h1{
+	color: white;
+	font-weight: 500;
+	letter-spacing: 10px;
+	word-spacing: 3px;
+	font-size: 50px;
+}
+.text-1 h2{
+	font-size: 30px;
+	color: white;
+	line-height: 80px;
+	font-weight: 300;
+	letter-spacing: 5px;
+}
+
+.box-1{
+	height: 400px;
+	overflow: hidden;
+	box-shadow: 0px 0px 30px 5px blue;
+	border-radius: 10%;
+}
+.box-1 video{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+#footer{
+	background: #313131;
+	padding: 20px 0;
+}
+.text-2 h1{
+	color:white;
+	font-weight:400;
+	font-size: 48px;
+}
+.text-2 h2{
+	color: white;
+	font-weight: 300;
+	word-spacing: 3px;
+	margin: 10px;
+}
+.nav-1 ul{
+	list-style: none;
+}
+.nav-1 li{
+	margin: 0 50px;
+}
+.nav-1 li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav-1 li a:hover{
+	text-decoration: underline;
+	color: grey;
+}
+.text-3{
+	color: white;
+	font-size: 20px;
+}
+.icon{
+	font-size: 20px;
+	margin: 0 15px;
+}
+.icon a{
+	color: white;
+	margin: 0 3px;
+}
+.icon a:hover{
+	color: grey;
+}
